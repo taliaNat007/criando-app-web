@@ -34,12 +34,13 @@ src/
 views/
 public/
 
-📸 Preview
-
 ## 📸 Preview
 
-![Preview do sistema](C:\Users\IFRO2\Downloads\app-web-novo-main\app-web-novo-main\app-web\assets/index.png)
-![Preview do sistema](C:\Users\IFRO2\Downloads\app-web-novo-main\app-web-novo-main\app-web\assets/contato.png)
+### 🏠 Página Inicial
+![Página Inicial](assets/index.png)
+
+### 📬 Página de Contato
+![Página de Contato](assets/contato.png)
 
 
 👩‍💻 Autor
