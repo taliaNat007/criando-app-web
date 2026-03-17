@@ -38,8 +38,8 @@ public/
 
 ## 📸 Preview
 
-![Preview do sistema](assets/index.png.png)
-![Preview do sistema](assets/contato.png.png)
+![Preview do sistema](C:\Users\IFRO2\Downloads\app-web-novo-main\app-web-novo-main\app-web\assets)
+![Preview do sistema](C:\Users\IFRO2\Downloads\app-web-novo-main\app-web-novo-main\app-web\assets)
 
 
 👩‍💻 Autor
