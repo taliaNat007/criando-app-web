@@ -38,8 +38,8 @@ public/
 
 ## 📸 Preview
 
-![Preview do sistema](assets/index.PNG)
-![Preview do sistema](assets/contato.PNG)
+![Preview do sistema](assets/index.png.png)
+![Preview do sistema](assets/contato.png.png)
 
 
 👩‍💻 Autor
