@@ -40,7 +40,7 @@ public/
 ![Página Inicial](/assets/teste.png)
 
 ### 📬 Página de Contato
-![Página de Contato](/assets/teste.png)
+![Página de Contato](./assets/contato.PNG)
 
 
 👩‍💻 Autor
