@@ -37,10 +37,10 @@ public/
 ## 📸 Preview
 
 ### 🏠 Página Inicial
-![Página Inicial](./assets/index.png)
+![Página Inicial](assets/index.png)
 
 ### 📬 Página de Contato
-![Página de Contato](https://raw.githubusercontent.com/taliaNat007/criando-app-web/main/assets/contato.png)
+![Página de Contato](assets/contato.png)
 
 👩‍💻 Autor
 
