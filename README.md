@@ -36,11 +36,12 @@ public/
 
 ## 📸 Preview
 
+### 📬 Página de Contato
+![Página de Contato](assets/contato.png)
+
 ### 🏠 Página Inicial
 ![Página Inicial](assets/index.png)
 
-### 📬 Página de Contato
-![Página de Contato](assets/contato.png)
 
 👩‍💻 Autor
 
