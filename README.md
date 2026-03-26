@@ -40,7 +40,7 @@ public/
 ![Página Inicial](./assets/index.png)
 
 ### 📬 Página de Contato
-![Página de Contato](./assets/contato.png)
+![Página de Contato](https://raw.githubusercontent.com/taliaNat007/criando-app-web/main/assets/contato.png)
 
 👩‍💻 Autor
 
