@@ -37,11 +37,10 @@ public/
 ## 📸 Preview
 
 ### 🏠 Página Inicial
-![Página Inicial](/assets/teste.png)
+![Página Inicial](./assets/teste.png)
 
 ### 📬 Página de Contato
-![Página de Contato](./assets/contato.PNG)
-
+![Página de Contato](./assets/contato.png)
 
 👩‍💻 Autor
 
