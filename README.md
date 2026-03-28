@@ -1,52 +1,146 @@
-# 🚀 Projeto NestJS MVC + EJS
+# 💼 Portfólio Web - Natália Fernandes
 
-Este é um projeto web desenvolvido utilizando o framework NestJS com padrão MVC e template engine EJS.
+Este é um projeto de **portfólio web dinâmico** desenvolvido com foco em apresentar minhas competências como **Desenvolvedora Júnior**. A aplicação exibe informações profissionais, formação, experiências e habilidades, além de possuir uma página de contato funcional.
 
-## 📌 Funcionalidades
+---
 
-- 📄 Página inicial com listagem de usuários
-- 📬 Página de contato com formulário
-- 🔁 Navegação entre páginas
-- 🎨 Estilização com CSS
+## 🚀 Tecnologias Utilizadas
 
-## 🛠️ Tecnologias utilizadas
+* Node.js
+* NestJS
+* EJS (Embedded JavaScript Templates)
+* HTML5
+* CSS3
 
-- Node.js
-- NestJS
-- EJS
-- HTML5
-- CSS3
+---
 
-## ▶️ Como executar o projeto
+## 📂 Estrutura do Projeto
 
-```bash
-# Instalar dependências
+```
+APP-WEB/
+│
+├── dist/
+├── node_modules/
+├── public/
+│   └── styles.css
+│
+├── src/
+│   ├── app.controller.ts
+│   ├── app.service.ts
+│   ├── app.module.ts
+│   └── main.ts
+│
+├── views/
+│   ├── inicial.ejs
+│   └── contato.ejs
+│
+├── test/
+├── .gitignore
+├── package.json
+└── nest-cli.json
+```
+
+---
+
+## 🖥️ Funcionalidades
+
+* 📌 Página inicial com:
+
+  * Objetivo profissional
+  * Formação acadêmica
+  * Experiência profissional
+  * Sobre mim
+  * Habilidades e habilidades técnicas
+
+* 📬 Página de contato com:
+
+  * Formulário para envio de mensagens
+  * Navegação entre páginas
+
+* ⏱️ Exibição dinâmica de dados (EJS):
+
+  * Título personalizado
+  * Hora atual
+  * Listas renderizadas dinamicamente
+
+---
+
+## 🎨 Estilo
+
+O projeto conta com uma interface moderna e responsiva utilizando CSS, com foco em:
+
+* Design profissional (tema dark)
+* Organização visual
+* Experiência do usuário
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Acesse a pasta:
+
+```
+cd APP-WEB
+```
+
+3. Instale as dependências:
+
+```
 npm install
+```
 
-# Rodar o projeto
+4. Execute o projeto:
+
+```
 npm run start
+```
 
-Acesse no navegador:
+5. Acesse no navegador:
+
+```
 http://localhost:3000
+```
 
-📂 Estrutura do projeto
-src/
-views/
-public/
+---
 
-## 📸 Preview
+## 📌 Objetivo do Projeto
 
-### 📬 Página de Contato
-![Página de Contato](https://raw.githubusercontent.com/taliaNat007/criando-app-web/main/assets/contato.png)
+Este projeto foi desenvolvido com o objetivo de:
 
-### 🏠 Página Inicial
-![Página Inicial](assets/index.png)
-testandp
+* Praticar desenvolvimento web com Node.js e NestJS
+* Trabalhar com renderização dinâmica usando EJS
+* Criar um portfólio profissional para apresentação pessoal
 
+---
+
+## 👩‍💻 Sobre Mim
+
+Sou estudante de Análise e Desenvolvimento de Sistemas, técnica em Informática e apaixonada por tecnologia. Possuo experiência com desenvolvimento, ensino de programação e projetos com robótica.
+
+---
+
+## 📬 Contato
+
+Caso queira entrar em contato, utilize a página **"Contate-me"** disponível na aplicação.
+
+---
+
+## ⭐ Considerações Finais
+
+Este projeto representa minha evolução na área de desenvolvimento e faz parte do meu portfólio como desenvolvedora iniciante. Estou em constante aprendizado e aberta a oportunidades na área de tecnologia.
+
+---
 👩‍💻 Autor
 
 Natália Fernandes
-```
+
+---
 <br>
 
 <p align="center">
