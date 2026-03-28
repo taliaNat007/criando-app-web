@@ -3,39 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NestJs MVC</title>
+    <title>Porfólio - Natália Fernandes</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+  <header>
     <h1><%= titulo %></h1>
-    <h2>NestJs MVC + EJS <%= horaAgora %></h2>
+    <h2>Técnico em Informática (T.I) <br> <%= horaAgora %></h2>
+  </header>
+  <main>
+    <section>
+        <h2> Objetivo</h2>
+        <p>Atuar como Desenvolvedora Júnior, aplicando meus conhecimentos em C#, JavaScript, React Native, HTML, CSS e SQL no desenvolvimento de soluções eficientes e inovadoras. Busco uma oportunidade para aprimorar minhas habilidades técnicas, contribuir com projetos de desenvolvimento de software e crescer profissionalmente na área de tecnologia. Possuo experiência com ensino de programação, desenvolvimento de projetos no ensino técnico, robótica com Arduino e prática em documentação, além de estar cursando Análise e Desenvolvimento de Sistemas.</p>
+    </section>
 
-    <ol>
-        <% for( let index = 0; index < listaPessoas.length; index++ ) { %>
-            <li><%= listaPessoas[index].nome%>: <%= listaPessoas[index].email%></li>
+    <section>
+        <h2>Formação Acadêmica</h2>
+        <ol>
+            <% for( let index = 0; index < listaAcademica.length; index++ ) { %>
+                <li><%= listaAcademica[index].formacao%> - <%= listaAcademica[index].instituicao%></li>
 
-        <% } %>
-    </ol>
-    
-    <table border="1">
-        <tr> 
-            <th>Nome</th>                          
-             <th>E-mail</th>
-         </tr>   
+            <% } %>
+        </ol>
+    </section>
+    <section>
+        <h2>Experiência Profissional</h2>
+        <table border="1">
+                <tr> 
+                    <th>Cargo</th>                          
+                    <th>Empresa</th>
+                </tr>   
 
-            <% for( let index = 0; index < listaPessoas.length; index++ ) { %>
+            <% for( let index = 0; index < listaExperiencia.length; index++ ) { %>
                
                 <tr> 
-                    <td><%= listaPessoas[index].nome%></td>                          
-                    <td><%= listaPessoas[index].email%></td>
+                    <td><%= listaExperiencia[index].cargo%></td>                          
+                    <td><%= listaExperiencia[index].empresa%></td>
                 </tr>
             <% } %>
-    </table>
+        </table>
+    </section>
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Sou comunicativa, proativa e tenho grande interesse em aprender continuamente. Possuo facilidade de adaptação a novos ambientes e desafios, o que me permite lidar bem com diferentes situações e tecnologias.</p>
+    </section>
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <% for( let index = 0; index < listaHabilidades.length; index++ ) { %>
+                <li><%= listaHabilidades[index].hab%> </li>
+            <% } %>
+        </ul>
+    </section>
+    <section>
+        <h2>Habilidades Técnicas</h2>
+         <ul>
+            <% for( let index = 0; index < habilidadeTecnica.length; index++ ) { %>
+                <li><%= habilidadeTecnica[index].habT%> </li>
+            <% } %>
+        </ul>
+    </section>
 
-    <a href="/contato">
+   <footer>
+     <a href="/contato">
         <button>Contate-me!</button>
     </a>
-
+   </footer>
+  </main>
+    
+    
+   
 
 </body>
 </html>

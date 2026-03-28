@@ -1,140 +1,164 @@
-/* RESET BÁSICO */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* CORPO DA PÁGINA */
+/* BODY */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
-    color: #333;
-    padding: 40px;
+    background: #0f172a; /* azul escuro moderno */
+    color: #e2e8f0;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-/* CONTAINER CENTRAL */
-body > * {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* TÍTULOS */
-h1 {
+/* HEADER */
+header {
     text-align: center;
-    margin-bottom: 10px;
-    color: #ffffff;
-}
-
-h2 {
-    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border-radius: 12px;
     margin-bottom: 30px;
-    color: #f0f0f0;
-    font-weight: normal;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
-/* LISTA */
-ol {
-    background: white;
+header h1 {
+    font-size: 2.5rem;
+    color: #38bdf8; /* azul destaque */
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: #94a3b8;
+    margin-top: 10px;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* SECTIONS */
+section {
+    background: #1e293b;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
-ol li {
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* TITLES */
+h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+}
+
+/* TEXT */
+p {
+    color: #cbd5f5;
+}
+
+/* LISTS */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
     margin-bottom: 8px;
 }
 
-/* TABELA */
+/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 30px;
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 10px;
 }
 
 th, td {
-    padding: 12px;
+    padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #4facfe;
-    color: white;
+    background: #334155;
+    color: #38bdf8;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+td {
+    background: #1e293b;
+    border-bottom: 1px solid #334155;
 }
 
-/* BOTÕES */
+/* BUTTONS */
 button {
-    display: inline-block;
-    padding: 12px 20px;
-    background: #4facfe;
-    color: white;
+    background: #38bdf8;
+    color: #0f172a;
     border: none;
+    padding: 10px 18px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 14px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #007bff;
+    background: #0ea5e9;
     transform: scale(1.05);
 }
 
-/* CENTRALIZAR BOTÕES */
-a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 30px;
 }
 
-/* FORMULÁRIO */
+/* FORM (CONTATO) */
 form {
-    background: white;
-    padding: 25px;
+    max-width: 600px;
+    margin: auto;
+    background: #1e293b;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
-/* CAMPOS */
 input, textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
     border-radius: 6px;
-    border: 1px solid #ccc;
-    transition: 0.3s;
-}
-
-/* FOCO NOS INPUTS */
-input:focus, textarea:focus {
-    border-color: #4facfe;
-    outline: none;
-    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
-}
-
-/* LABEL */
-label {
-    font-weight: bold;
-}
-
-/* ESPAÇAMENTO ENTRE CAMPOS */
-form div {
-    margin-bottom: 15px;
-}
-
-/* HR */
-hr {
-    margin: 20px 0;
     border: none;
-    height: 2px;
-    background: #eee;
+    margin-top: 5px;
+    background: #0f172a;
+    color: #e2e8f0;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #38bdf8;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px;
+    }
 }

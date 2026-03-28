@@ -9,17 +9,43 @@ export class AppController {
   @Render('inicial')
   getHello(): object {
     
-    let pessoas = [
-      {nome: 'Natália Fernandes', email: 'criativosnatalia@gmail.com'},
-      {nome: 'Heitor Fernandes', email: 'heitorfernandes@gmail.com'},
-      {nome: 'Andressa Marinho', email: 'andressamarinho@gmail.com'},
-      {nome: 'João Teixeira', email: 'ajoao@gmail.com'},
+    let dadosAcademicos = [
+      {formacao: 'Ensino Médio, Completo', instituicao: 'IFRO Campus Ji-Paraná'},
+      {formacao: 'Técnico em Informática, Concluído', instituicao: 'IFRO Campus Ji-Paraná'},
+      {formacao: 'Análise e Desenvolvimento de Sistemas, Cursando (5° P)', instituicao: 'IFRO Campus Ji-Paraná'},
+    ];
+    
+    let experiencia = [
+      {cargo: "Instrutora de Programação", empresa: "Código Kid"},
+      {cargo: "Instrutora de Programação", empresa: "Código Kid"}
+    ];
+
+    let habilidades = [
+      {hab: "Comunicação clara e didática"},
+      {hab: "Proatividade e iniciativa"},
+      {hab: "Facilidade de aprendizado contínuo"},
+      {hab: "Facilidade de aprendizado contínuo"},
+      {hab: "Adaptabilidade a novos ambientes e tecnologias"},
+      {hab: "Trabalho em equipe"},
+      {hab: "Organização e documentação de projetos"}
+    ];
+
+    let habTec = [
+      {habT:"Linguagens: C#, JavaScript"},
+      {habT:"Desenvolvimento Mobile: React Native"},
+      {habT:"Desenvolvimento Web: HTML, CSS"},
+      {habT:"Banco de Dados: SQL"},
+      {habT:"Robótica: Arduino"},
+      {habT:"Prática em desenvolvimento de projetos acadêmicos"}
     ];
     
     return {
-      titulo: 'AppWeb com NestJs',
+      titulo: 'Natália da Silva Fernandes',
       horaAgora: new Date(),
-      listaPessoas: pessoas
+      listaAcademica: dadosAcademicos,
+      listaExperiencia: experiencia,
+      listaHabilidades: habilidades,
+      habilidadeTecnica: habTec
     };
   }
   
