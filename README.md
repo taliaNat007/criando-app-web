@@ -127,9 +127,11 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, técnica em Informátic
 
 ## 📬 Contato
 
-Caso queira entrar em contato, 
+Para entrar em contato através do meu email:
+
 vendasnatalia05@gmail.com
 criativosnatalia@gmail.com
+
 ou utilize a página **"Contate-me"** disponível na aplicação.
 
 ---
