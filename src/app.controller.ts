@@ -33,12 +33,12 @@ export class AppController {
     let habTec = [
       {habT:"Linguagens: C#, JavaScript"},
       {habT:"Desenvolvimento Mobile: React Native"},
-      {habT:"Desenvolvimento Web: HTML, CSS"},
+      {habT:"Desenvolvimento Web: HTML, CSS, Node.js, NestJS, EJS (Embedded JavaScript Templates) HTML5, CSS3"},
       {habT:"Banco de Dados: SQL"},
       {habT:"Robótica: Arduino"},
-      {habT:"Prática em desenvolvimento de projetos acadêmicos"}
+      {habT:"Prática em desenvolvimento de projetos acadêmicos"},
     ];
-    
+
     return {
       titulo: 'Natália da Silva Fernandes',
       horaAgora: new Date(),
