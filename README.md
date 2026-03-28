@@ -127,7 +127,10 @@ Sou estudante de Análise e Desenvolvimento de Sistemas, técnica em Informátic
 
 ## 📬 Contato
 
-Caso queira entrar em contato, utilize a página **"Contate-me"** disponível na aplicação.
+Caso queira entrar em contato, 
+vendasnatalia05@gmail.com
+criativosnatalia@gmail.com
+ou utilize a página **"Contate-me"** disponível na aplicação.
 
 ---
 
